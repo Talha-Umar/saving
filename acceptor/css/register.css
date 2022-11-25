@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/banner1.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    font-family: sans-serif;
+}
+/*Success*/
+
+.loginbox .success {
+    background-color: #259b10;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+}
+
+
+/*Errors*/
+
+.res-list .error {
+    background-color: rgb(177, 27, 27);
+    border-radius: 10px;
+    padding: 10px;
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.res-list .error li {
+    color: white;
+    margin: 5px 0px;
+    text-align: center;
+}
+
+.res-list .error li i {
+    color: #FFB80B;
+    animation: blink 2.5s infinite;
+}
+
+
+.loginbox {
+    width: 280px;
+    background: white;
+    color: #f87900;
+    top: 50%;
+    left: 50%;
+    border: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 70px 30px;
+}
+
+.login {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"],
+input[type="Name"],
+input[type="password"],
+input[type="Email"] {
+    border: none;
+    border-bottom: 1px solid #f87900;
+    background: #fff;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+}
+
+.loginbox input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #f87900;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover {
+    cursor: pointer;
+    background: orange;
+    color: #fff;
+}
